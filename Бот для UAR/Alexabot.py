@@ -11,6 +11,7 @@ import time
 from gtts import gTTS
 import requests
 from uuid import uuid4
+
 client = amino.Client()
 print("\t\033[1;32m Моречка  \033[1;36m камунити бот \n\n")
 email = "hellocrite4@gmail.com"
@@ -79,15 +80,16 @@ lis = ["Это точно",
        "Мои источники говорят нет",
        "Прогноз не очень хороший",
        "Очень сомнительно", "Да", "Нет", "наверное", "100%", "Не уверен"]
-tt = ['адопт скоро затопит ведь анимация тонущих кружка разбилась еще больше так же убрали домик на дереве и колокол разбился и буквы падают и деревья тоже з',
-      'Прослушайте😁текст😳и😏напишите🥺сжатое😌 изложение😂учтите😳что🥰вы🥺должны😌передать😁 главное😳 содержание😏как каждой😋микротемы🥵так и',
-      'я🙂нюхаю😚бэбру😃эвридэй😝ха😎бэбра😠диктор😮фреди😒нюхаю😊бэбру😂не🥶боюсь😜фрэди🤩в😁подвале😱дети🥺еие🤯',
-      'АаАААААААААаААААААААяаяааяаАААА🥰хи коцлмшыи😜 кцалашцтлпши3гвгце 😚у у 😋ууууу😀',
-      'Osmanthus 😟wine☹️tastes😈 the 🤨same 😕as 😜I💥 remember...😡 But ☹️where😍 are 🙄those💳 who 😰share😔 the😃 memory?😣',
-      'Синдзи🙎🏻‍♂икари 🙎🏻‍♂Эй,🥺Синдзи🙎🏻‍♂икари🙎🏻‍♂Облик🙆🏻‍♂мой🙎🏻‍♂прекрасен✨ Но 🖐для👐вас🤦🏼‍♀я 🙎🏻‍♂бездарен',
-      'I🤡do not⭐like😈a👋🏻peaches ✨they👀are😎full🍹a🥛stone🧢I💗like🌟bananas😰they🍻does not🐙have😫a🤩bones🤗',
-      'эл😁си😇эл😅ева😱 два ноля😎 ева 😳 ноль один 🤗 Ева 😰 ноль два 😈 я не победим🙄 Евангелион 😯 на-на 😑 Евангелион 💀 на-на👹',
-f""""🎤sawarasenai🥰kimi😸wa⛓shoujo👻na💅no?✨böKù🌸Wâ🧚ÿARiçHiñ🤴BįCChī😾ńO😩oSû🚣Dà🎉YO💘ah💫tSutSümÄrętÃĺ👀😳Ñò😈😳A a a a😈 aina🙀 kotoba👅 wa💃 iranai 💅demo🔥 nande🌸 darou
+tt = [
+    'адопт скоро затопит ведь анимация тонущих кружка разбилась еще больше так же убрали домик на дереве и колокол разбился и буквы падают и деревья тоже з',
+    'Прослушайте😁текст😳и😏напишите🥺сжатое😌 изложение😂учтите😳что🥰вы🥺должны😌передать😁 главное😳 содержание😏как каждой😋микротемы🥵так и',
+    'я🙂нюхаю😚бэбру😃эвридэй😝ха😎бэбра😠диктор😮фреди😒нюхаю😊бэбру😂не🥶боюсь😜фрэди🤩в😁подвале😱дети🥺еие🤯',
+    'АаАААААААААаААААААААяаяааяаАААА🥰хи коцлмшыи😜 кцалашцтлпши3гвгце 😚у у 😋ууууу😀',
+    'Osmanthus 😟wine☹️tastes😈 the 🤨same 😕as 😜I💥 remember...😡 But ☹️where😍 are 🙄those💳 who 😰share😔 the😃 memory?😣',
+    'Синдзи🙎🏻‍♂икари 🙎🏻‍♂Эй,🥺Синдзи🙎🏻‍♂икари🙎🏻‍♂Облик🙆🏻‍♂мой🙎🏻‍♂прекрасен✨ Но 🖐для👐вас🤦🏼‍♀я 🙎🏻‍♂бездарен',
+    'I🤡do not⭐like😈a👋🏻peaches ✨they👀are😎full🍹a🥛stone🧢I💗like🌟bananas😰they🍻does not🐙have😫a🤩bones🤗',
+    'эл😁си😇эл😅ева😱 два ноля😎 ева 😳 ноль один 🤗 Ева 😰 ноль два 😈 я не победим🙄 Евангелион 😯 на-на 😑 Евангелион 💀 на-на👹',
+    f""""🎤sawarasenai🥰kimi😸wa⛓shoujo👻na💅no?✨böKù🌸Wâ🧚ÿARiçHiñ🤴BįCChī😾ńO😩oSû🚣Dà🎉YO💘ah💫tSutSümÄrętÃĺ👀😳Ñò😈😳A a a a😈 aina🙀 kotoba👅 wa💃 iranai 💅demo🔥 nande🌸 darou
 ✨Zen 💦zen 😰zen 😝zen 🔫zenbu 😹boku 🤠no 💥mono 💬nishitai 🤣NoNoNo 🔫dottei 💄desu
 ( 😫No 😻No 👅No 🙋‍♂No 🔥No 💅Oh) 🖤zettai 💥meichuu 🗿zenritsu 😕sen ( 😅Wow
 😈Wo 🙈Wo ✨Yeah 👄Yeah) ✌da 😃tte 👀ima ✊sugu
@@ -101,16 +103,16 @@ f""""🎤sawarasenai🥰kimi😸wa⛓shoujo👻na💅no?✨böKù🌸Wâ🧚ÿAR
 🔥aa 😃asuwato 🤬onaru ⛓binkaun 🌴wa 💥yada 😭a 💕a 💡a 🍌a 🤒a 😓ai na 😳kimochi 👺janainda
 🤙yaritai 👳‍♀koto 💨bakari
 😛so 👅so 🙅‍♂so 🌸so 🌼✂sojiteru 😰keiretemo 🙃ii ❤monandatei""",
-      'ай☺️джоджо😋пинь😙тяо🤪ай😛джоджо🤩тяо😊сань🥰джоджо😬тяо😍су😮дожо😝ау😇',
-      'MEEBO🙄HMM😦SHUBBA😈DUBBA😃MOVE🤭IT😩LIKE😎A💦MEEBO😞MEEBO🤩LABBA 😼LABBA📸LABBA😳DABABO⚠️GLABO😊GLUG🤠GLUG😉GUGLABLE😋LABLE🥸OoO😮TOUGE👅TWISTER⛸LIKE🧩GABABA🪗GABBA🎯YABBADASABA🖍DABYOOODABBA🐓BLOW🌬MOSSAY🥔ABBA🥳LABBA😣DOOBA🥺CADOSAY🤬CADOSAY🥶METAMORPHOSIS🤥APORPHOSIS👾OF🤛MARKLE🤟LABORTH👻LABA😽GABLABIA🧠LABORTORY💋YAMAMANDOOOO👶YAMAMAN🤪MAAMEL😤LAMANGO🤮GAMMGO🎃ENMA😾BEEP🤖GAMMAJUICE🤕YABATA👹BABATA👽WHEN THE BEAT DROP🫁BEAT DROP👨‍🎓YABADABA⚽️DOOBOP🏵YABADABADA🎨WADWA🎤WOODBOP📟',
-      f"""૮꒰˵• ﻌ •˵꒱ა
+    'ай☺️джоджо😋пинь😙тяо🤪ай😛джоджо🤩тяо😊сань🥰джоджо😬тяо😍су😮дожо😝ау😇',
+    'MEEBO🙄HMM😦SHUBBA😈DUBBA😃MOVE🤭IT😩LIKE😎A💦MEEBO😞MEEBO🤩LABBA 😼LABBA📸LABBA😳DABABO⚠️GLABO😊GLUG🤠GLUG😉GUGLABLE😋LABLE🥸OoO😮TOUGE👅TWISTER⛸LIKE🧩GABABA🪗GABBA🎯YABBADASABA🖍DABYOOODABBA🐓BLOW🌬MOSSAY🥔ABBA🥳LABBA😣DOOBA🥺CADOSAY🤬CADOSAY🥶METAMORPHOSIS🤥APORPHOSIS👾OF🤛MARKLE🤟LABORTH👻LABA😽GABLABIA🧠LABORTORY💋YAMAMANDOOOO👶YAMAMAN🤪MAAMEL😤LAMANGO🤮GAMMGO🎃ENMA😾BEEP🤖GAMMAJUICE🤕YABATA👹BABATA👽WHEN THE BEAT DROP🫁BEAT DROP👨‍🎓YABADABA⚽️DOOBOP🏵YABADABADA🎨WADWA🎤WOODBOP📟',
+    f"""૮꒰˵• ﻌ •˵꒱ა
 ./づᡕᠵ᠊ᡃ࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊~~~~♡""",
-      f"""yes    yes  yes yes yes
+    f"""yes    yes  yes yes yes
 yesyes  yes yes    yes
 yes yes yes  yes    yes
 yes  yesyes yes    yes
 yes    yes  yes yes yes""",
-      f"""ﾍ^ヽ､　 /⌒､　　,
+    f"""ﾍ^ヽ､　 /⌒､　　,
 　 |　　￣7　 (⌒r⌒7/
 　 レ　　　＼/￣＼｣
 ＿/　　　　　　　　 [
@@ -165,6 +167,25 @@ def on_group_member_leave(data):
 
 @client.event("on_text_message")
 def on_text_message(data):
+    ex = data.message.content
+    cd = ex.split(' ')
+    x = cd[0]
+    c = cd[1:]
+    if x.lower() == "/clear":
+        try:
+            for i in c:
+                d = int(i)
+                a = subclient.get_chat_messages(chatId=data.message.chatId, size=d)
+                for i in a.messageId:
+                    subclient.delete_message(chatId=data.message.chatId, messageId=i, asStaff=True, reason="clear")
+                    subclient.send_message(chatId=data.message.chatId,
+                                           message=f"очищено {d} собщений. спамеры тупые баты бизмамные")
+        except:
+            subclient.send_message(chatId=data.message.chatId, message="[ci]дайте кураторку пж чтобы я удаляла")
+
+
+@client.event("on_text_message")
+def on_text_message(data):
     if data.comId == cidy:
         ex = data.message.content
         cd = ex.split(' ')
@@ -211,27 +232,6 @@ def on_text_message(data):
                             subclient.send_message(chatId=data.message.chatId,
                                                    message="https://aminoapps.com/u/" + str(AID),
                                                    embedTitle="Global Id", embedContent=f"{h}")
-                    print(f"Info requested by {data.message.author.nickname}")
-                except Exception as e:
-                    print(e)
-            if x.lower() == "/clear":
-                if x.lower() not in l:
-                    try:
-                        for i in c:
-                            d = int(i)
-                            a = subclient.get_chat_messages(chatId=data.message.chatId, size=d)
-                            for i in a.messageId:
-                                subclient.delete_message(chatId=data.message.chatId, messageId=i, asStaff=True,
-                                                         reason="clear")
-                            subclient.send_message(chatId=data.message.chatId, message=f"очищено {d} сообщений")
-                    except:
-                        subclient.send_message(chatId=data.message.chatId,
-                                               message="[ci]дайте ботяре лидерку или куратора чтобы эта функция заработала ну екалемане")
-                else:
-                    subclient.send_message(chatId=data.message.chatId, message="Clear заблокирована ботяры")
-            if x.lower() == "/llock" and c == []:
-                try:
-                    subclient.send_message(chatId=data.message.chatId, message=f"заблокированные комманды {l}")
                     print(f"Info requested by {data.message.author.nickname}")
                 except Exception as e:
                     print(e)
@@ -507,7 +507,8 @@ def on_text_message(data):
                         d = int(i)
                         print(transaction)
                         subclient.send_coins(coins=d, chatId=data.message.chatId, transactionId=transaction)
-                        subclient.send_message(chatId=data.message.chatId, message=f"прислала {d} манет хозяину а вы батихпалпавовлдроврваршпарв аоплквп")
+                        subclient.send_message(chatId=data.message.chatId,
+                                               message=f"прислала {d} манет хозяину а вы батихпалпавовлдроврваршпарв аоплквп")
                 except Exception as e:
                     print(e)
             if x.lower() == "/goodnight" and c == []:
@@ -577,14 +578,21 @@ def on_text_message(data):
                     print(e)
             if x.lower() == "/joke" and c == []:
                 try:
-                    subclient.send_message(chatId=data.message.chatId,
-                                           message=)
+                    subclient.send_message(chatId=data.message.chatId, message=str(random.choice(anek)),
+                                           replyTo=data.message.messageId)
                     print(f"Info requested by {data.message.author.nickname}")
                 except Exception as e:
                     print(e)
             if x.lower() == "/8ball":
                 try:
                     subclient.send_message(chatId=data.message.chatId, message=str(random.choice(lis)),
+                                           replyTo=data.message.messageId)
+                    print(f"Info requested by {data.message.author.nickname}")
+                except Exception as e:
+                    print(e)
+            if x.lower() == "/tt":
+                try:
+                    subclient.send_message(chatId=data.message.chatId, message=str(random.choice(tt)),
                                            replyTo=data.message.messageId)
                     print(f"Info requested by {data.message.author.nickname}")
                 except Exception as e:
@@ -641,13 +649,15 @@ def on_text_message(data):
                     print(e)
             if x.lower() == "/mori" and c == []:
                 try:
-                    subclient.send_message(chatId=data.message.chatId, message="Вы оттарабанили фишлю. вот так ему и надо а то как обычно хуи пинает")
+                    subclient.send_message(chatId=data.message.chatId,
+                                           message="Вы оттарабанили фишлю. вот так ему и надо а то как обычно хуи пинает")
                     print(f"Info requested by {data.message.author.nickname}")
                 except Exception as e:
                     print(e)
             if x.lower() == "/peri" and c == []:
                 try:
-                    subclient.send_message(chatId=data.message.chatId,message="Вы потрахали пери. ДАЙТЕ ЕМУ БОЛЬШИЕ ЧЛЕНЫ")
+                    subclient.send_message(chatId=data.message.chatId,
+                                           message="Вы потрахали пери. ДАЙТЕ ЕМУ БОЛЬШИЕ ЧЛЕНЫ")
                     print(f"Info requested by {data.message.author.nickname}")
                 except Exception as e:
                     print(e)
