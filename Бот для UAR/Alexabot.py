@@ -79,6 +79,55 @@ lis = ["Это точно",
        "Мои источники говорят нет",
        "Прогноз не очень хороший",
        "Очень сомнительно", "Да", "Нет", "наверное", "100%", "Не уверен"]
+tt = ['адопт скоро затопит ведь анимация тонущих кружка разбилась еще больше так же убрали домик на дереве и колокол разбился и буквы падают и деревья тоже з',
+      'Прослушайте😁текст😳и😏напишите🥺сжатое😌 изложение😂учтите😳что🥰вы🥺должны😌передать😁 главное😳 содержание😏как каждой😋микротемы🥵так и',
+      'я🙂нюхаю😚бэбру😃эвридэй😝ха😎бэбра😠диктор😮фреди😒нюхаю😊бэбру😂не🥶боюсь😜фрэди🤩в😁подвале😱дети🥺еие🤯',
+      'АаАААААААААаААААААААяаяааяаАААА🥰хи коцлмшыи😜 кцалашцтлпши3гвгце 😚у у 😋ууууу😀',
+      'Osmanthus 😟wine☹️tastes😈 the 🤨same 😕as 😜I💥 remember...😡 But ☹️where😍 are 🙄those💳 who 😰share😔 the😃 memory?😣',
+      'Синдзи🙎🏻‍♂икари 🙎🏻‍♂Эй,🥺Синдзи🙎🏻‍♂икари🙎🏻‍♂Облик🙆🏻‍♂мой🙎🏻‍♂прекрасен✨ Но 🖐для👐вас🤦🏼‍♀я 🙎🏻‍♂бездарен',
+      'I🤡do not⭐like😈a👋🏻peaches ✨they👀are😎full🍹a🥛stone🧢I💗like🌟bananas😰they🍻does not🐙have😫a🤩bones🤗',
+      'эл😁си😇эл😅ева😱 два ноля😎 ева 😳 ноль один 🤗 Ева 😰 ноль два 😈 я не победим🙄 Евангелион 😯 на-на 😑 Евангелион 💀 на-на👹',
+f""""🎤sawarasenai🥰kimi😸wa⛓shoujo👻na💅no?✨böKù🌸Wâ🧚ÿARiçHiñ🤴BįCChī😾ńO😩oSû🚣Dà🎉YO💘ah💫tSutSümÄrętÃĺ👀😳Ñò😈😳A a a a😈 aina🙀 kotoba👅 wa💃 iranai 💅demo🔥 nande🌸 darou
+✨Zen 💦zen 😰zen 😝zen 🔫zenbu 😹boku 🤠no 💥mono 💬nishitai 🤣NoNoNo 🔫dottei 💄desu
+( 😫No 😻No 👅No 🙋‍♂No 🔥No 💅Oh) 🖤zettai 💥meichuu 🗿zenritsu 😕sen ( 😅Wow
+😈Wo 🙈Wo ✨Yeah 👄Yeah) ✌da 😃tte 👀ima ✊sugu
+🌿yaritai 🚣yaritai ✂yaritai 😣Oh 😛asedaku ⛓de
+🤧sawarasenai 👯kimi 💨wa 🌸shojo 😳na 🍄no ✨boku 🐸wa 👸yarichin 👺bicchi 👿no😋osu 🌱da 💡yo ( 😇osu 💞da 🙊yo )🔫Ah 😡tsutsumaretai 💐na 😂kimi 💋no 😍nenmaku 💇ni
+🐱Fallen…
+🤧fuwaf 🌸fuwaf ☀Body 💦Body 🍄Body 🚴‍♀Body 😫fuwaf 🙀fuwaf 👬Body 💅Body 🌱Body ❤dakiaitai 😈chakui ✊deOK
+🙁kimi 😴no 🌷kokoro ✨ga 💦shiritai 🤕dake 😢da ⛓yo
+😎Oh 😩tsurenai 🌟taido 🏃sosorarechau 🍄ze 🐷AnAnAnAn 💖an’i 😵na 😾kimochi 🌸wa 💚iranai 🔥shiritai 🗿bakka 🦋de💊nan 🍭nara 👸nonke 😖de 😇mo ī 🌱yo ✨ikasete 😄yaru ✂kara！🎉AnAnAnAn 😬antei 🙏no 🔥rizumu 🌸pisuton 🙅‍♂tomaranainda 😵zenzen 😤zenzen 💥zenbu 🗿shiritai 🌱kimi 👸no 😍koto
+💖suki 👀na ⛓ko 👄to 🐸jyou 💘wo 🕺toshita 🤐inajaku 😈tomo 🙈ikana 👀whoah 🐩whoah
+🔥aa 😃asuwato 🤬onaru ⛓binkaun 🌴wa 💥yada 😭a 💕a 💡a 🍌a 🤒a 😓ai na 😳kimochi 👺janainda
+🤙yaritai 👳‍♀koto 💨bakari
+😛so 👅so 🙅‍♂so 🌸so 🌼✂sojiteru 😰keiretemo 🙃ii ❤monandatei""",
+      'ай☺️джоджо😋пинь😙тяо🤪ай😛джоджо🤩тяо😊сань🥰джоджо😬тяо😍су😮дожо😝ау😇',
+      'MEEBO🙄HMM😦SHUBBA😈DUBBA😃MOVE🤭IT😩LIKE😎A💦MEEBO😞MEEBO🤩LABBA 😼LABBA📸LABBA😳DABABO⚠️GLABO😊GLUG🤠GLUG😉GUGLABLE😋LABLE🥸OoO😮TOUGE👅TWISTER⛸LIKE🧩GABABA🪗GABBA🎯YABBADASABA🖍DABYOOODABBA🐓BLOW🌬MOSSAY🥔ABBA🥳LABBA😣DOOBA🥺CADOSAY🤬CADOSAY🥶METAMORPHOSIS🤥APORPHOSIS👾OF🤛MARKLE🤟LABORTH👻LABA😽GABLABIA🧠LABORTORY💋YAMAMANDOOOO👶YAMAMAN🤪MAAMEL😤LAMANGO🤮GAMMGO🎃ENMA😾BEEP🤖GAMMAJUICE🤕YABATA👹BABATA👽WHEN THE BEAT DROP🫁BEAT DROP👨‍🎓YABADABA⚽️DOOBOP🏵YABADABADA🎨WADWA🎤WOODBOP📟',
+      f"""૮꒰˵• ﻌ •˵꒱ა
+./づᡕᠵ᠊ᡃ࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊~~~~♡""",
+      f"""yes    yes  yes yes yes
+yesyes  yes yes    yes
+yes yes yes  yes    yes
+yes  yesyes yes    yes
+yes    yes  yes yes yes""",
+      f"""ﾍ^ヽ､　 /⌒､　　,
+　 |　　￣7　 (⌒r⌒7/
+　 レ　　　＼/￣＼｣
+＿/　　　　　　　　 [
+ﾌ　●　　　　　　　ゝ
+人　　　ο　　●　 ナ
+　 `ト､＿　　　　　メ
+　　　 /　 ￣ ーィﾞ
+　　 〈ﾟ･｡｡｡･ﾟ 　丶"""]
+
+anek = [f"""— Будешь выходить — труп вынеси!
+— Может быть, мусор?
+— Может — мусор, может — сантехник, бог его знает…""",
+        f"""— Я боюсь прыгать — вдруг парашют не раскроется?
+— Еще никто никогда не жаловался, что у него не раскрылся парашют.""",
+        f"""Из записи в «Книге жалоб и предложений» супермаркета:
+«Товары расположены не очень удобно. Например, веревки в хозяйственном отделе, мыло в косметическом, табуретки вообще на другом этаже, в мебельном».""",
+        ]
 
 
 @client.event("on_group_member_join")
@@ -529,7 +578,7 @@ def on_text_message(data):
             if x.lower() == "/joke" and c == []:
                 try:
                     subclient.send_message(chatId=data.message.chatId,
-                                           message="""[i]нашли как-то 4 негра золотую лампу....""")
+                                           message=)
                     print(f"Info requested by {data.message.author.nickname}")
                 except Exception as e:
                     print(e)
