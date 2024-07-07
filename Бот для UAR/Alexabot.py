@@ -14,8 +14,8 @@ from uuid import uuid4
 
 client = amino.Client()
 print("\t\033[1;32m Моречка  \033[1;36m камунити бот \n\n")
-email = "hellocrite4@gmail.com"
-password = "24112006"
+email = ""
+password = ""
 
 client.login(email=email, password=password)
 
